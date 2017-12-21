@@ -1,0 +1,11 @@
+language: java
+
+java:
+  - 1.7.0
+  - 1.8
+
+before_script:
+  composer install --no-interaction
+  
+script:
+  javac hello.java
